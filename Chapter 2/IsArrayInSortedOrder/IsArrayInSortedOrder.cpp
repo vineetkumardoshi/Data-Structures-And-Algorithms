@@ -30,5 +30,8 @@ int main(){
   
   cout<<answer;
   
+  delete [] A;
+  A = NULL;
+  
   return 0;
 }
